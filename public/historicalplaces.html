@@ -1,49 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Historical Places</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <center>
-<body bgcolor=" #ffffb3">
-  
-   <hr>
-       <img src="/images/logo.png" align="left" height="80">
-        <a href="home.html" >Home</a> | 
-        <a href="localdishes.html">Local Dishes</a> | 
-        <a href="historicalplaces.html"><big>Historical Places</big></a> |
-        <a href="usefullinks.html">Useful Links</a> | 
-        <a href="aboutme.html">About Me</a> | 
-        <a href="contactme.html">Contact me</a> | 
-        <a href="registration.html">Registration</a>
-    <hr>
-    <br>
-    <br>
-    <br>
-    <img src="/images/greek-church.jpg" alt="" width="40%" height="20%">
-    <br>
-    <h3>Oldest Church in lebanon</h3>
-    <p>
-          The Greek Orthodox Cathedral in downtown Beirut is the city's oldest extant church. It has been built over the Anastasi Romano-Byzantine Cathedral and if you look through a glass floor in the church, you can see some evidence of the church
-    </p>
-    <br>
-    <img src="/images/omari-mosque.jpg" alt="" width="40%" height="20%">
-    <h3>Oldest Mosque in Lebanon </h3>
-    <p>Before being eclipsed by the Mohammad al-Amin Mosque, the Omari Mosque was Beirut’s central mosque. It takes its name from the caliph Omar Ibn aI-Khattab. It was built on the ruins of an ancient Byzantine church that was in turn built on the ruins of Roman thermal baths. The Crusaders transformed the mosque in 1150 into a cathedral dedicated to St. John, before the Mamluks definitively turned it into a mosque in 1291, becoming the grand mosque of the city during the reign of Sultan Al-Ashraf Khalil.</p>
-    <br>
-    <img src="/images/Taxi_Driver_Nicolas_pic_1.jpg" alt="" align="left">
-    <h3> The famous servis "TAXI" of Beirut</h3>
-    <p>
-        There is alot of options to commute in Beirut. From public transportation to private taxis. But the most intertaining way is by using the car pooling servis. You'll pay around 1$ to reach wherever you wanna reach. The trick is that he'll be able to take other passengers on the way, you're not alone.
+
+    <body bgcolor=" #ffffb3">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="home.html"><img src="/images/logo.png" align="left" height="80"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutme.html"> About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="usefullinks.html">Useful Links</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="historicalplaces.html">Historical Places <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="localdishes.html">Local Dishes </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactme.html">Contact Me</a>
+                    </li>
+                </ul>
+
+
+                <a href="registration.html"> <button class="btn btn-outline-success my-2 my-sm-0" type="button">Register Now</button>
+     </a>
+
+            </div>
+        </nav>
         <br>
-        The best aspect about that is that you'll hear exciting stories from these drivers! They are always ready to talk, and everybody speaks english!!!
-    </p>
-    
-    
-    
-    
-    
-    
-</body>
+        <br>
+        <br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <!--  Model starter  -->
+                    <img src="/images/greek-church.jpg" alt="greek church" width="100%" height="100%" data-toggle="modal" data-target="#exampleModal">
+                    <h5>Oldest Church in lebanon</h5>
+                    <h6>Click the image to know more</h6>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Oldest Church in lebanon</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                                </div>
+                                <div class="modal-body">
+                                    The Greek Orthodox Cathedral in downtown Beirut is the city's oldest extant church. It has been built over the Anastasi Romano-Byzantine Cathedral and if you look through a glass floor in the church, you can see some evidence of the church
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <!--  Model starter  -->
+                    <img src="/images/omari-mosque.jpg" alt="" width="100%" height="100%" data-toggle="modal" data-target="#mosque">
+                    <h5>Oldest Mosque in Lebanon</h5>
+                    <h6>Click the image to know more</h6>
+                    <!-- Modal -->
+                    <div class="modal fade" id="mosque" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Oldest Mosque in Lebanon</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Before being eclipsed by the Mohammad al-Amin Mosque, the Omari Mosque was Beirut’s central mosque. It takes its name from the caliph Omar Ibn aI-Khattab. It was built on the ruins of an ancient Byzantine church that was in turn built on the ruins of Roman thermal baths. The Crusaders transformed the mosque in 1150 into a cathedral dedicated to St. John, before the Mamluks definitively turned it into a mosque in 1291, becoming the grand mosque of the city during the reign of Sultan Al-Ashraf Khalil.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <!--  Model starter  -->
+                    <img src="/images/Taxi_Driver_Nicolas_pic_1.jpg" alt="" width="100%" height="100%" data-toggle="modal" data-target="#taxi">
+                    <h5>The famous servis "TAXI" of Beirut</h5>
+                    <h6>Click the image to know more</h6>
+                    <!-- Modal -->
+                    <div class="modal fade" id="taxi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">The famous servis "TAXI" of Beirut</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    There is alot of options to commute in Beirut. From public transportation to private taxis. But the most intertaining way is by using the car pooling servis. You'll pay around 1$ to reach wherever you wanna reach. The trick is that he'll be able to take other passengers on the way, you're not alone.
+                                    <br> The best aspect about that is that you'll hear exciting stories from these drivers! They are always ready to talk, and everybody speaks english!!!
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
 </center>
+
 </html>

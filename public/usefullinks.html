@@ -3,30 +3,109 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Useful links</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <center>
 
     <body bgcolor=" #ffffb3">
-       
-        <hr>
-        <img src="/images/logo.png" align="left" height="80">
-        <a href="home.html">Home</a> |
-        <a href="localdishes.html">Local Dishes</a> |
-        <a href="historicalplaces.html">Historical Places</a> |
-        <a href="usefullinks.html"><big>Useful Links</big></a> |
-        <a href="aboutme.html">About Me</a> |
-        <a href="contactme.html">Contact me</a> |
-        <a href="registration.html">Registration</a>
-        <hr>
-        <br>
-        <p> One of the best Hospitals in Beirut: <a href="http://www.aubmc.org"> AUBMC</a></p>
-        <p>If you need a private cab you can check this website <a href="https://charlietaxi.charlie-group.com"> Charlie Taxi</a> </p>
-        <p>You can also check this website for events and parties: <a href="http://desktop.beiruting.com/"> BEIRUTING</a>
-        </p>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="home.html"><img src="/images/logo.png" align="left" height="80"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutme.html"> About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="usefullinks.html">Useful Links <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="historicalplaces.html">Historical Places</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="localdishes.html">Local Dishes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactme.html">Contact Me</a>
+                    </li>
+                </ul>
+
+
+                <a href="registration.html"> <button class="btn btn-outline-success my-2 my-sm-0" type="button">Register Now</button>
+     </a>
+
+            </div>
+        </nav>
         
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="/images/aubmc.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Hospital</h5>
+                            <p class="card-text">It is located in Hamra district, best in lebanon</p>
+                            <a href="http://www.aubmc.org" class="btn btn-primary">AUBMC</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="/images/charlie.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Taxi Service</h5>
+                            <p class="card-text">They will be there in 5mins!</p>
+                            <a href="https://charlietaxi.charlie-group.com" class="btn btn-primary">Charlie Taxi</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+           <div class="container">
+            
+            <div class="row">
+
+                <div class="col-lg-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="/images/ngno.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Food Recommendations</h5>
+                            <p class="card-text">You'll love the food!</p>
+                            <a href="http://www.nogarlicnoonions.com/" class="btn btn-primary">NGNO</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="/images/beiruting.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Events</h5>
+                            <p class="card-text">Beirut is lit people</p>
+                            <a href="http://desktop.beiruting.com/" class="btn btn-primary"> Beiruting</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
-    
+
 </center>
 
 </html>

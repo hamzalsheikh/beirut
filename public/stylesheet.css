@@ -1,0 +1,23 @@
+.container {
+    
+    margin-bottom: 30px;
+    margin-top: 30px;
+        
+    
+}
+
+@media screen and (max-width: 800px) {
+    
+    img {
+        
+    }
+    
+    p {
+        font-size: 0.80em;
+    }
+    .col-sm-12 {
+        
+        margin-bottom: 60px;
+    }
+    
+}
